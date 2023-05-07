@@ -5,7 +5,7 @@ This package will likely be used as a development tool:
 ```
 npm install @aikosia/asterisker --save-dev
 ```
-
+ 
 Assume you have this on your package.json
 
 ```
