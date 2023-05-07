@@ -1,6 +1,8 @@
-# THE STORY
+# THE MOTIVATION
 
-# HOW TO USE
+1. Change dependencierpackage.json
+
+# GETTING STARTED
 
 ## GLOBAL
 
@@ -8,14 +10,16 @@
 npm install -g @aikosia/asterisker
 ```
 
-```
-asterisker @aikosia/automaton-core, @
-```
-
 ## LOCAL 
 
 ```
 npm install @aikosia/asterisker
+```
+
+## EXAMPLE
+
+```
+asterisker @aikosia/automaton-core @aikosia/automaton-cli
 ```
 
 

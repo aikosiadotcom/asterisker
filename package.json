@@ -4,6 +4,9 @@
   "description": "Change dependencies package.json to latest",
   "main": "./src/index.js",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/aikosiadotcom/asterisker"
@@ -39,9 +42,9 @@
     "asterisker": "./src/index.js"
   },
   "dependencies": {
-    "@aikosia/automaton-core": "^1.1.6",
     "commander": "^10.0.1",
-    "modify-json-file": "^1.2.2"
+    "modify-json-file": "^1.2.2",
+    "read-pkg": "^8.0.0"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
