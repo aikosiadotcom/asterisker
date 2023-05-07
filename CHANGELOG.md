@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/aikosiadotcom/asterisker/compare/v1.1.0...v1.2.0) (2023-05-07)
+
+
+### Features
+
+* add new options links (-l, --link) and asterisker field array type on package.json ([745262b](https://github.com/aikosiadotcom/asterisker/commit/745262b6d72a68c6f91b81fd342e5bdf07b42e33))
+
 # [1.1.0](https://github.com/aikosiadotcom/asterisker/compare/v1.0.0...v1.1.0) (2023-05-07)
 
 
