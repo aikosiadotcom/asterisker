@@ -1,6 +1,6 @@
 {
   "name": "@aikosia/asterisker",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Change dependencies package.json to latest",
   "main": "./src/index.js",
   "type": "module",
