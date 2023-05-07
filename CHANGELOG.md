@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/aikosiadotcom/asterisker/compare/v1.0.0...v1.1.0) (2023-05-07)
+
+
+### Features
+
+* support all kind of dependencies in package.json ([08db08a](https://github.com/aikosiadotcom/asterisker/commit/08db08ad91688a08248e9dcb305b2d82359d0c11))
+
 # 1.0.0 (2023-05-07)
 
 
