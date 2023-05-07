@@ -1,13 +1,9 @@
-#### GLOBAL 
+### LOCAL
+
+This package will likely be used as a development tool:
 
 ```
-npm install -g @aikosia/asterisker
-```
-
-#### LOCAL
-
-```
-npm install @aikosia/asterisker
+npm install @aikosia/asterisker --save-dev
 ```
 
 Assume you have this on your package.json
@@ -41,7 +37,13 @@ dependencies:{
 }
 ```
 
-#### NPX
+### GLOBAL 
+
+```
+npm install -g @aikosia/asterisker
+```
+
+### NPX
 
 ```
 npx @aikosia/asterisker express mongodb
