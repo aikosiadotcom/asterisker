@@ -1,0 +1,56 @@
+{
+  "name": "@aikosia/asterisker",
+  "version": "1.0.0",
+  "description": "Change dependencies package.json to latest",
+  "main": "./src/index.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aikosiadotcom/asterisker"
+  },
+  "engines": {
+    "npm": ">=8.19.2",
+    "node": ">=18.12.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "scripts": {
+    "start": "node ./src/index.js",
+    "release": "git add * && git-cz && git pull origin && git push origin"
+  },
+  "keywords": [
+    "aikosia",
+    "update",
+    "dependency"
+  ],
+  "files": [
+    "src/**/*.js"
+  ],
+  "author": "firman",
+  "license": "MIT",
+  "imports": {
+    "#src/*": "./src/*.js"
+  },
+  "exports": "./src/index.js",
+  "bin": {
+    "asterisker": "./src/index.js"
+  },
+  "dependencies": {
+    "@aikosia/automaton-core": "^1.1.6",
+    "commander": "^10.0.1",
+    "modify-json-file": "^1.2.2"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^9.0.2",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/npm": "^10.0.3",
+    "@semantic-release/release-notes-generator": "^11.0.1",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "semantic-release": "^21.0.2"
+  }
+}
