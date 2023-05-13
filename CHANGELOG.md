@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/aikosiadotcom/asterisker/compare/v1.2.0...v1.2.1) (2023-05-07)
+
+
+### Bug Fixes
+
+* just wanna to publish npm ([f2e157a](https://github.com/aikosiadotcom/asterisker/commit/f2e157a1c63f36aa64d82d5cf9e27ae3ee126542))
+
 # [1.2.0](https://github.com/aikosiadotcom/asterisker/compare/v1.1.0...v1.2.0) (2023-05-07)
 
 
